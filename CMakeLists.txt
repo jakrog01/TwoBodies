@@ -4,4 +4,6 @@ project(TwoBodies)
 set(CMAKE_CXX_STANDARD 20)
 
 include_directories(include)
-add_executable(TwoBodies src/main.cpp)
+add_executable(TwoBodies src/main.cpp
+        src/Body.cpp
+        src/vector2D.cpp)

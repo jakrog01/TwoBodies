@@ -1,7 +1,9 @@
 # ninja log v6
-891	1088	7637729360566609	TwoBodies.exe	88ab0d01e3c1599a
-9	415	7637729784572924	build.ninja	147e7de9f31294f
-38	888	7637729352045858	CMakeFiles/TwoBodies.dir/src/main.cpp.obj	578fc48de31fd32d
-21	318	7637729784572924	build.ninja	147e7de9f31294f
-23	663	7637729785406996	CMakeFiles/TwoBodies.dir/src/main.cpp.obj	5269942e3f6fa2c9
-664	788	7637729791807385	TwoBodies.exe	88ab0d01e3c1599a
+17	329	7637841783028734	build.ninja	147e7de9f31294f
+1127	1296	7637753208525104	TwoBodies.exe	5a15be3886153f9a
+117	1127	7637753198424799	CMakeFiles/TwoBodies.dir/src/main.cpp.obj	5269942e3f6fa2c9
+123	417	7637753198486981	CMakeFiles/TwoBodies.dir/src/body.cpp.obj	9d27591733ded2b2
+129	1059	7637753198542113	CMakeFiles/TwoBodies.dir/src/vector2D.cpp.obj	e5143bbd5bb3f6f9
+76	3641	7637841813048742	CMakeFiles/TwoBodies.dir/src/vector2D.cpp.obj	e5143bbd5bb3f6f9
+67	4984	7637841812948733	CMakeFiles/TwoBodies.dir/src/main.cpp.obj	5269942e3f6fa2c9
+4984	6246	7637841862118714	TwoBodies.exe	5a15be3886153f9a

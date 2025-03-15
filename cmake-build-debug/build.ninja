@@ -56,6 +56,20 @@ build CMakeFiles/TwoBodies.dir/src/main.cpp.obj: CXX_COMPILER__TwoBodies_unscann
   OBJECT_DIR = CMakeFiles\TwoBodies.dir
   OBJECT_FILE_DIR = CMakeFiles\TwoBodies.dir\src
 
+build CMakeFiles/TwoBodies.dir/src/body.cpp.obj: CXX_COMPILER__TwoBodies_unscanned_Debug F$:/TwoBodies/src/body.cpp || cmake_object_order_depends_target_TwoBodies
+  DEP_FILE = CMakeFiles\TwoBodies.dir\src\body.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -IF:/TwoBodies/include
+  OBJECT_DIR = CMakeFiles\TwoBodies.dir
+  OBJECT_FILE_DIR = CMakeFiles\TwoBodies.dir\src
+
+build CMakeFiles/TwoBodies.dir/src/vector2D.cpp.obj: CXX_COMPILER__TwoBodies_unscanned_Debug F$:/TwoBodies/src/vector2D.cpp || cmake_object_order_depends_target_TwoBodies
+  DEP_FILE = CMakeFiles\TwoBodies.dir\src\vector2D.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -IF:/TwoBodies/include
+  OBJECT_DIR = CMakeFiles\TwoBodies.dir
+  OBJECT_FILE_DIR = CMakeFiles\TwoBodies.dir\src
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target TwoBodies
@@ -64,7 +78,7 @@ build CMakeFiles/TwoBodies.dir/src/main.cpp.obj: CXX_COMPILER__TwoBodies_unscann
 #############################################
 # Link the executable TwoBodies.exe
 
-build TwoBodies.exe: CXX_EXECUTABLE_LINKER__TwoBodies_Debug CMakeFiles/TwoBodies.dir/src/main.cpp.obj
+build TwoBodies.exe: CXX_EXECUTABLE_LINKER__TwoBodies_Debug CMakeFiles/TwoBodies.dir/src/main.cpp.obj CMakeFiles/TwoBodies.dir/src/body.cpp.obj CMakeFiles/TwoBodies.dir/src/vector2D.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\TwoBodies.dir
