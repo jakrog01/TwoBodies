@@ -7,7 +7,7 @@
 
 namespace Constants
 {
-    constexpr double G {0.1};
+    constexpr double G {0.01};
     constexpr double dt {0.001};
 }
 

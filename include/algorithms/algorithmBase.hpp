@@ -13,10 +13,11 @@ class AlgorithmBase {
         virtual void nextStep (Body& body1, Body& body2) = 0;
         AlgorithmBase() = default;
         virtual ~AlgorithmBase() = default;
+        [[nodiscard]] double calculatePotentialEnergy(const Body& body1, const Body& body2) const;
 
     protected:
      [[nodiscard]] Vector2D calculateForce(const Body& body1, const Body& body2) const;
-     [[nodiscard]] double calculatePotential(const Body& body1, const Body& body2) const;
+
 };
 
 #endif //ALGORITHMBASE_HPP

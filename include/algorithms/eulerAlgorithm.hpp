@@ -6,7 +6,7 @@
 #define EULERALGORITHM_HPP
 #include "algorithmBase.hpp"
 
-class EulerAlgorithm: AlgorithmBase
+class EulerAlgorithm: public AlgorithmBase
 {
     public:
         void nextStep (Body& body1, Body& body2) override;

@@ -11,4 +11,6 @@ add_executable(TwoBodies src/main.cpp
         src/algorithmBase.cpp
         include/algorithms/algorithmBase.hpp
         src/eulerAlgorithm.cpp
-        include/algorithms/eulerAlgorithm.hpp)
+        include/algorithms/eulerAlgorithm.hpp
+        src/simulation.cpp
+        include/simulation.hpp)

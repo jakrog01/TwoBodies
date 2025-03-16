@@ -6,5 +6,5 @@
 }
 
 [[nodiscard]] double Vector2D::distanceBetweenVectors(const Vector2D &other) const {
-    return {sqrt(pow(x - other.x,2) + pow(y - other.y,2))};
+    return {sqrt(pow(other.x -x,2) + pow(other.y - y,2))};
 };
