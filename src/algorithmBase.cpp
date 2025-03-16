@@ -6,7 +6,7 @@
 #include "Constants.hpp"
 #include "cmath"
 
-[[nodiscard]] Vector2D algorithmBase::calculateForce (const Body& body1, const Body& body2) const
+[[nodiscard]] Vector2D AlgorithmBase::calculateForce (const Body& body1, const Body& body2) const
 {
     Vector2D relative_position = body1.getDistanceToOtherBody(body2);
 
@@ -20,7 +20,7 @@
     return Vector2D{Fx, Fy};
 };
 
-double algorithmBase::calculatePotential(const Body &body1, const Body &body2) const
+double AlgorithmBase::calculatePotential(const Body &body1, const Body &body2) const
 {
     Vector2D relative_position = body1.getDistanceToOtherBody(body2);
     return {-1 * Constants::G * body1.getMass() * body2.getMass() / relative_position.getVectorLength()};

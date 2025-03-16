@@ -8,14 +8,15 @@
 #include "physics/body.hpp"
 #include "physics/vector2D.hpp"
 
-class algorithmBase {
-    private:
+class AlgorithmBase {
+    public:
+        virtual void nextStep (Body& body1, Body& body2) = 0;
+        AlgorithmBase() = default;
+        virtual ~AlgorithmBase() = default;
+
+    protected:
      [[nodiscard]] Vector2D calculateForce(const Body& body1, const Body& body2) const;
      [[nodiscard]] double calculatePotential(const Body& body1, const Body& body2) const;
-
-    public:
-        virtual void nextStep (Body& body1, Body& body2) {};
-        ~algorithmBase() = default;
 };
 
 #endif //ALGORITHMBASE_HPP

@@ -4,12 +4,12 @@
 
 #ifndef EULERALGORITHM_HPP
 #define EULERALGORITHM_HPP
-#include "IAlgorithm.hpp"
+#include "algorithmBase.hpp"
 
-class eulerAlgorithm: algorithmBase
+class EulerAlgorithm: AlgorithmBase
 {
     public:
-        void nextStep (Body& body1, Body& body2) override {};
+        void nextStep (Body& body1, Body& body2) override;
 };
 
 #endif //EULERALGORITHM_HPP
