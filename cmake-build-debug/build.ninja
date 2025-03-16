@@ -70,6 +70,20 @@ build CMakeFiles/TwoBodies.dir/src/vector2D.cpp.obj: CXX_COMPILER__TwoBodies_uns
   OBJECT_DIR = CMakeFiles\TwoBodies.dir
   OBJECT_FILE_DIR = CMakeFiles\TwoBodies.dir\src
 
+build CMakeFiles/TwoBodies.dir/src/IAlgorithm.cpp.obj: CXX_COMPILER__TwoBodies_unscanned_Debug F$:/TwoBodies/src/IAlgorithm.cpp || cmake_object_order_depends_target_TwoBodies
+  DEP_FILE = CMakeFiles\TwoBodies.dir\src\IAlgorithm.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -IF:/TwoBodies/include
+  OBJECT_DIR = CMakeFiles\TwoBodies.dir
+  OBJECT_FILE_DIR = CMakeFiles\TwoBodies.dir\src
+
+build CMakeFiles/TwoBodies.dir/include/algorithms/eulerAlgorithm.cpp.obj: CXX_COMPILER__TwoBodies_unscanned_Debug F$:/TwoBodies/include/algorithms/eulerAlgorithm.cpp || cmake_object_order_depends_target_TwoBodies
+  DEP_FILE = CMakeFiles\TwoBodies.dir\include\algorithms\eulerAlgorithm.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -IF:/TwoBodies/include
+  OBJECT_DIR = CMakeFiles\TwoBodies.dir
+  OBJECT_FILE_DIR = CMakeFiles\TwoBodies.dir\include\algorithms
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target TwoBodies
@@ -78,7 +92,7 @@ build CMakeFiles/TwoBodies.dir/src/vector2D.cpp.obj: CXX_COMPILER__TwoBodies_uns
 #############################################
 # Link the executable TwoBodies.exe
 
-build TwoBodies.exe: CXX_EXECUTABLE_LINKER__TwoBodies_Debug CMakeFiles/TwoBodies.dir/src/main.cpp.obj CMakeFiles/TwoBodies.dir/src/body.cpp.obj CMakeFiles/TwoBodies.dir/src/vector2D.cpp.obj
+build TwoBodies.exe: CXX_EXECUTABLE_LINKER__TwoBodies_Debug CMakeFiles/TwoBodies.dir/src/main.cpp.obj CMakeFiles/TwoBodies.dir/src/body.cpp.obj CMakeFiles/TwoBodies.dir/src/vector2D.cpp.obj CMakeFiles/TwoBodies.dir/src/IAlgorithm.cpp.obj CMakeFiles/TwoBodies.dir/include/algorithms/eulerAlgorithm.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\TwoBodies.dir

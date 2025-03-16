@@ -16,6 +16,9 @@ public:
             , m_mass{mass}
         {};
 
+    [[nodiscard]] double getMass() const { return m_mass; }
+
+    [[nodiscard]] Vector2D getDistanceToOtherBody(const Body& other) const;
     [[nodiscard]] double getKineticEnergy() const;
 
     private:
